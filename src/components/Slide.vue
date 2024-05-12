@@ -61,7 +61,7 @@ export default {
 
 .swiper-slide .inner {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   height: 100%;
 }
@@ -98,4 +98,22 @@ export default {
   height: 100%;
   object-fit: cover;
 }
+
+
+@media all and (max-width:810px) {
+  .swiper-slide .txt_box h3 {
+    text-align: center;
+  }
+}
+
+@media all and (max-width:375px) {
+  .swiper-slide .txt_box h3 {
+    font-size: 30px;
+  }
+  .swiper-slide .txt_box p {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+}
+
 </style>
